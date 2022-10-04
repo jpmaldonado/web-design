@@ -2,14 +2,24 @@
 <html>
 <head>
     <!-- Metadata goes here. -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+
     <style>
         table {
             border: 2px solid black;
             border-collapse: collapse;
+            font-family: Sofia;
         }
 
         td, th {
             border: 1px solid black;
+        }
+
+        h2 {
+            font-family: 'Bungee Spice', cursive;
         }
     </style>
 </head>
@@ -19,12 +29,14 @@
     <h2> Table with Colspan </h2>
     <table>
         <tr>
-        <th colspan="2">Fat</th>
+            <th colspan="2">Fat</th>
         </tr>
+        
         <tr>
             <td>Saturated Fat (g)</td>
             <td>Unsaturated Fat (g)</td>
         </tr>
+        
         <tr>
             <td>10</td>
             <td>15</td>
@@ -35,14 +47,16 @@
     <h2> Table with Rowspan </h2>
     <table>
         <tr>
-        <th rowspan="3">Serving Size</th>
+            <th rowspan="3">Serving Size</th>
         <td>Small (8oz.)</td>
         </tr>
+        
         <tr>
-        <td>Medium (16oz.)</td>
+            <td>Medium (16oz.)</td>
         </tr>
+
         <tr>
-        <td>Large (24oz.)</td>
+            <td>Large (24oz.)</td>
         </tr>
     </table>
 </body>
