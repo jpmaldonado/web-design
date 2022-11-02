@@ -9,10 +9,10 @@ body {
   position: relative;
   animation-name: myanimation;
   animation-duration: 4s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+  animation-iteration-count: 2;
+  /*animation-fill-mode: forwards;*/
   /* animation-delay: 2s; */
-  /* animation-direction: alternate; */
+  animation-direction: alternate;
   /* animation-timing-function: ease-in-out; */
 }
 
