@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title>JS Demo</title>
+    <!-- CSS would go here WIP-->
+    <style>
+        #user {
+            background-color: chocolate;
+        }
+    </style>    
+</head>
+
+<body onload="getUserName()">
+    <h1>Welcome to the page!</h1>
+    <h2 id="user"></h2> 
+
+    <button onclick="getUserData()">Get user details</button>
+    <h3 id="data"></h3>
+
+</body>
+
+<script>
+    // JS goes here
+
+    function getUserName(){
+        let name = prompt("Who are you?");
+        var userHeader = document.querySelector('#user');
+        userHeader.textContent = name;
+    }
+
+
+    function getUserData(){
+        var userDataHeader = document.querySelector('#data');
+        userDataHeader.textContent = 'very important info';
+    }
+
+</script>
+
+</html>

@@ -3,7 +3,7 @@ var clear = document.getElementById("clear");
 
 submit.onclick = function(){
 	var name = document.getElementById("name").value;
-    var city = document.getElementById("city").value;
+  var city = document.getElementById("city").value;
   
   document.getElementById("outputName").innerText = name;
   document.getElementById("outputCity").innerText = city;

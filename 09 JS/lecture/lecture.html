@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<script>
+
+function greetUser(){
+    var userName = prompt("What is your name?");
+    var greeting = 'Hola';
+
+    if(userName=='Pablo'){
+        greeting = 'Hola hola';
+    }
+    else {
+        greeting = 'Good afternoon.';
+    }
+
+    console.log(greeting)
+}    
+
+// Loop that shows 3 alert messages
+/*for(var i=0; i<3; i++){
+    alert(i);
+}*/
+
+/*
+var records = ['pablo','ali','ena']
+for(var i=0; i<3; i++){
+    console.log(records[i]);
+}
+*/
+
+function addNumbers(a,b){
+    var val1 = parseFloat(a) // clarify that input is a number!
+    var val2 = parseFloat(b)
+    return val1+val2
+}
+
+var firstNumber = prompt("Gimme first number");
+var secondNumber = prompt("now gimme second...")
+var total = addNumbers(firstNumber,secondNumber)
+console.log(total)
+
+</script>
+
+</html>
